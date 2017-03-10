@@ -8,6 +8,9 @@ const patternDict = [ {
 	pattern: 'like\\sin\\s\\b(?<city>.+)',
 	intent: 'CurrentWeather'
 }, {
+	pattern: 'in\\s\\b(?<city>.+)',
+	intent: 'CurrentWeather'
+}, {
 	pattern: '\\b(?<weather>hot|cold|rain|rainy|sunny|snow|thunderstorms|windy|drizzle)\\b\\sin\\s\\b(?<city>[a-z]+[ a-z]+?)\\b(?<time>day\\safter\\stomorrow|tomorrow|today)$',
 	intent: 'WeatherForecast'
 }, {
