@@ -24,7 +24,7 @@ class FBeamer {
 		//console.log(req.query);
 		//console.log(req);
 		//console.log(req.params.hub);
-		let {mode, challenge, verify_token} = req.params.hub;
+		let {mode, challenge, verify_token} = req.query.hub;
 
 		if(mode === 'subscribe' && verify_token === this.VERIFY_TOKEN) {
 			return res.end(challenge);
