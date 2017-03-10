@@ -1,0 +1,7 @@
+This is a simple weather bot written on the same lines as the Udemy course on Building Chatbots.
+It answers:
+"What is the weather like in <cityname>" or "what is the weather in <cityname>"
+"Will it <weather condition> in <cityname> <today/tomorrow/day after tomorrow>" or "Will it <weather condition> <tomorrow/day after tomorrow/today> in <cityname>"
+The possible weather conditions are: weather>hot|cold|rain|rainy|sunny|snow|thunderstorms|windy|drizzle.
+
+The facebook page is https://www.facebook.com/WeatherBot-1203255326454705/.
